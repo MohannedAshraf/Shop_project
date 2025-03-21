@@ -40,6 +40,10 @@ dependencies:
   carousel_slider: ^5.0.0
   get:
   shared_preferences:
+  flutter_bloc: ^9.1.0
+  image_picker: ^1.1.2
+  dartz: ^0.10.1
+  dio: ^5.8.0+1
 
 dev_dependencies:
   flutter_test:
@@ -86,6 +90,10 @@ flutter:
           weight: 800
         - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf 
           weight: 600
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf 
+          weight: 400 
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf 
+          weight: 700    
            
   #
   # For details regarding fonts from package dependencies,
