@@ -9,4 +9,5 @@ abstract class MyAppColors {
   static const Color gray = Color(0xffBBBBBB);
   static const Color specialbackground = Color(0xffFDFDFD);
   static const Color black = Color(0xff000000);
+  //sssS
 }
