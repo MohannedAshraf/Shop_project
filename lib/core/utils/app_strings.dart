@@ -41,4 +41,10 @@ abstract class AppStrings {
   static const String setting = "Settings";
   static const String logout = "Log Out";
   static const String userfullname = " User full Name";
+  //profile page
+  static const String save = "Save";
+  //settings
+  static const String lang = "Language";
+  static const String ar = "AR";
+  static const String en = "EN";
 }
