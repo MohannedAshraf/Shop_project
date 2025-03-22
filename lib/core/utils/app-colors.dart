@@ -9,5 +9,5 @@ abstract class MyAppColors {
   static const Color gray = Color(0xffBBBBBB);
   static const Color specialbackground = Color(0xffFDFDFD);
   static const Color black = Color(0xff000000);
-  //sssS
+  static const Color categoryblack = Color(0xff21003D);
 }

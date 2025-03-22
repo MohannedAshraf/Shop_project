@@ -1,7 +1,12 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:ntigradproject/core/utils/app-colors.dart';
+import 'package:ntigradproject/core/utils/app_icons.dart';
 import 'package:ntigradproject/core/utils/app_images.dart';
+import 'package:ntigradproject/feature/home/view/final_home_view.dart';
+import 'package:ntigradproject/feature/items/view/item_view.dart';
 
 class TestView extends StatefulWidget {
   const TestView({super.key});
@@ -12,12 +17,23 @@ class TestView extends StatefulWidget {
 
 class _TestViewState extends State<TestView> {
   int navBarCurrentIndex = 0;
-  List<Widget> screens = [HomeView(), ItemsView(), ProfileView()];
+  List<Widget> screens = [FinalHomeView(), ItemsView(), ProfileView()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: CircleAvatar(
-        child: IconButton(onPressed: () {}, icon: Icon(Icons.car_repair_sharp)),
+        radius: 25,
+        child: Container(
+          decoration: BoxDecoration(
+            color: MyAppColors.red,
+            shape: BoxShape.circle,
+            border: Border.all(color: MyAppColors.red),
+          ),
+          child: IconButton(
+            onPressed: () {},
+            icon: SvgPicture.asset(MyAppIcons.bag, fit: BoxFit.cover),
+          ),
+        ),
       ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (index) {
@@ -59,16 +75,7 @@ class ProfileView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('ProfileView'));
-  }
-}
-
-class ItemsView extends StatelessWidget {
-  const ItemsView({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Center(child: Text('Items'));
+    return Center(child: Text('profile'));
   }
 }
 
