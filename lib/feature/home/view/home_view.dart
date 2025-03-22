@@ -7,6 +7,7 @@ import 'package:ntigradproject/core/utils/app_icons.dart';
 import 'package:ntigradproject/core/utils/app_images.dart';
 import 'package:ntigradproject/feature/home/view/final_home_view.dart';
 import 'package:ntigradproject/feature/items/view/item_view.dart';
+import 'package:ntigradproject/feature/profile/view/main_profile.dart';
 
 class TestView extends StatefulWidget {
   const TestView({super.key});
@@ -17,7 +18,7 @@ class TestView extends StatefulWidget {
 
 class _TestViewState extends State<TestView> {
   int navBarCurrentIndex = 0;
-  List<Widget> screens = [FinalHomeView(), ItemsView(), ProfileView()];
+  List<Widget> screens = [FinalHomeView(), ItemsView(), MainProfile()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,7 +52,7 @@ class _TestViewState extends State<TestView> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.car_crash,
+              Icons.shopping_cart_checkout,
               color: navBarCurrentIndex == 1 ? Colors.red : Colors.black,
             ),
             label: 'Items',

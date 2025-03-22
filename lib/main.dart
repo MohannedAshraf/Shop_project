@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ntigradproject/feature/auth/manager/login_cubit/login_cubit.dart';
+import 'package:ntigradproject/feature/home/view/home_view.dart';
 
 import 'package:ntigradproject/feature/profile/view/main_profile.dart';
 
@@ -18,10 +19,7 @@ class MyApp extends StatelessWidget {
           create: (context) => LoginCubit(),
         ), // ✅ توفير LoginCubit هنا
       ],
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: MainProfile(),
-      ),
+      child: MaterialApp(debugShowCheckedModeBanner: false, home: TestView()),
     );
   }
 }
