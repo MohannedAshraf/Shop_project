@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:ntigradproject/core/resources_manager/default-appbar.dart';
 import 'package:ntigradproject/core/utils/app-colors.dart';
 import 'package:ntigradproject/core/utils/app_icons.dart';
