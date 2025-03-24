@@ -7,7 +7,7 @@ import 'package:ntigradproject/core/utils/app_strings.dart';
 import 'package:ntigradproject/feature/auth/manager/login_cubit/login_cubit.dart';
 import 'package:ntigradproject/feature/auth/manager/login_cubit/login_state.dart';
 import 'package:ntigradproject/feature/auth/view/widget/default_textform.dart';
-import 'package:ntigradproject/feature/home/view/home_view.dart';
+import 'package:ntigradproject/feature/home/view/final_home_view.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -85,7 +85,7 @@ class LoginView extends StatelessWidget {
                 ).showSnackBar(SnackBar(content: Text('Login Success')));
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => HomeView()),
+                  MaterialPageRoute(builder: (context) => FinalHomeView()),
                 );
               } else if (state is LoginError) {
                 ScaffoldMessenger.of(

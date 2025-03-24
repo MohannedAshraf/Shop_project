@@ -1,10 +1,8 @@
-import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:ntigradproject/core/utils/app-colors.dart';
 import 'package:ntigradproject/core/utils/app_icons.dart';
-import 'package:ntigradproject/core/utils/app_images.dart';
+
 import 'package:ntigradproject/feature/home/view/final_home_view.dart';
 import 'package:ntigradproject/feature/items/view/item_view.dart';
 import 'package:ntigradproject/feature/profile/view/main_profile.dart';

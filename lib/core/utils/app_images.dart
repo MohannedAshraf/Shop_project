@@ -10,4 +10,6 @@ abstract class MyAppImage {
   static const gift = "assets/images/gift.png";
   static const shirt = "assets/images/shirt.png";
   static const profile = "assets/images/profile.png";
+  static const manorder = "assets/images/manorder.png";
+  static const ladyorder = "assets/images/ladyorder.png";
 }

@@ -47,4 +47,35 @@ abstract class AppStrings {
   static const String lang = "Language";
   static const String ar = "AR";
   static const String en = "EN";
+  //product
+  static const String product = "Product";
+  static const String productprice = "100 LE ";
+  static const String productdetails =
+      "Vision Alta Men’s Shoes Size (All Colours) Mens \nStarry Sky Printed Shirt 100% Cotton Fabric";
+  static const String addtocart = "    Add To Cart";
+  //Cart
+  static const String cart = "Cart";
+  static const String totalorder = "Total Order (1)   :";
+  static const String shoppinglist = "Shopping List";
+  static const String product1rate = "4.8";
+  static const String product1name = "Women’s Casual Wear";
+  static const String finalprice1 = "LE 34.00  ";
+  static const String oldprice1 = "LE 64.00";
+  static const String product2name = "Men’s Jacket";
+  static const String product2rate = "4.7";
+  static const String finalprice2 = "LE 45.00  ";
+  static const String oldprice2 = "LE 67.00";
+  static const String subtotal = "Subtotal";
+  static const String taxfees = "Tax and Fees";
+  static const String delivery = "Delivery Fee";
+  static const String totalorders = "Order Total";
+  static const String subprice = " LE 79.00 ";
+  static const String taxprice = " LE 3.00 ";
+  static const String deliveryprice = "LE 2.00";
+  static const String totalordersprice = "LE 84.00";
+  static const String checkout = "Checkout";
+  static const String delevadd = "Delivery Address";
+  static const String add = "Address";
+  static const String addtitle = "Type address here \nor pick from map";
+  static const String placeorder = "Place Order";
 }

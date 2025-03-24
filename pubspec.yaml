@@ -38,6 +38,7 @@ dependencies:
   dots_indicator: ^4.0.1
   flutter_svg:
   carousel_slider: ^5.0.0
+  item_count_number_button: ^1.9.2
   get:
   shared_preferences:
   flutter_bloc: ^9.1.0
