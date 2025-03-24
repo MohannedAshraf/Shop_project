@@ -78,4 +78,23 @@ abstract class AppStrings {
   static const String add = "Address";
   static const String addtitle = "Type address here \nor pick from map";
   static const String placeorder = "Place Order";
+  //Myorder
+  static const String myordertitle = "My Orders";
+  static const String active = "Active";
+  static const String compl = "Completed";
+  static const String cancelled = "Cancelled";
+  static const String noorder =
+      "You don't have any \nactive orders at this \ntime";
+  static const String orderdate = "15/05/2005 1:30 pm";
+  static const String cancel = "Cancel";
+  static const String trackdriver = "Track Driver";
+  static const String itemprice = "LE 50";
+  static const String itemcount = "1 item";
+  static const String orderdelivered = "Order delivered";
+  static const String ordercncel = "Order Canceled";
+  static const String ordernum = "Order No. 005";
+  static const String orderdate2 = "29 Nov, 01:20 pm ";
+  static const String item = "1 item";
+  static const String cancelorder = "Cancel Order";
+  static const String orderdetails = "Order Details";
 }

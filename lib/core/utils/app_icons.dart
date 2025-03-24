@@ -25,4 +25,6 @@ abstract class MyAppIcons {
   static const String setting = "${_baseiconspass}Setting - Iconly Pro.svg";
   static const String line = "${_baseiconspass}Line 14.svg";
   static const String redheart = "${_baseiconspass}redheart.svg";
+  static const String docs = "${_baseiconspass}docs.svg";
+  static const String correct = "${_baseiconspass}correct.svg";
 }

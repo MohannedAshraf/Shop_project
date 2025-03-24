@@ -3,8 +3,8 @@ import 'package:item_count_number_button/item_count_number_button.dart';
 import 'package:ntigradproject/core/utils/app-colors.dart';
 import 'package:ntigradproject/core/utils/app_strings.dart';
 
-class OrderCard extends StatelessWidget {
-  const OrderCard({
+class OrderCard2 extends StatelessWidget {
+  const OrderCard2({
     super.key,
     required this.image,
     required this.ordername,
@@ -21,10 +21,10 @@ class OrderCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 17, top: 10, bottom: 7, right: 17),
+      margin: EdgeInsets.only(left: 17, top: 10, right: 17),
       padding: EdgeInsets.all(10),
       width: double.infinity,
-      height: MediaQuery.of(context).size.height * 0.26,
+      height: MediaQuery.of(context).size.height * 0.23,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(6),
         color: MyAppColors.background,
@@ -72,7 +72,8 @@ class OrderCard extends StatelessWidget {
                       Icon(Icons.star, color: MyAppColors.yellow),
                     ],
                   ),
-                  SizedBox(height: 12),
+                  SizedBox(height: 10),
+                  Text(AppStrings.item),
                   Row(
                     children: [
                       Text(
@@ -82,6 +83,7 @@ class OrderCard extends StatelessWidget {
                           fontSize: 16,
                         ),
                       ),
+                      SizedBox(width: 40),
                       Text(
                         orderoldprice,
                         style: TextStyle(
@@ -90,24 +92,6 @@ class OrderCard extends StatelessWidget {
                           fontSize: 12,
                           fontWeight: FontWeight.w500,
                         ),
-                      ),
-                    ],
-                  ),
-
-                  SizedBox(height: 10),
-                  Row(
-                    children: [
-                      SizedBox(width: 80),
-                      ItemCount(
-                        color: MyAppColors.red,
-                        initialValue: 1,
-                        step: 1,
-                        minValue: 1,
-                        maxValue: 10,
-                        decimalPlaces: 0,
-                        onChanged: (value) {
-                          //using cubit to change the  value
-                        },
                       ),
                     ],
                   ),
@@ -127,7 +111,7 @@ class OrderCard extends StatelessWidget {
                 AppStrings.totalorder,
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),
               ),
-              SizedBox(width: 170),
+              SizedBox(width: 160),
               Text(
                 orderprice,
                 style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),

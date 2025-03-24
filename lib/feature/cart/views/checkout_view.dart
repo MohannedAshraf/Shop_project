@@ -5,6 +5,7 @@ import 'package:ntigradproject/core/utils/app-colors.dart';
 import 'package:ntigradproject/core/utils/app_images.dart';
 import 'package:ntigradproject/core/utils/app_strings.dart';
 import 'package:ntigradproject/feature/cart/views/widget/order_card.dart';
+import 'package:ntigradproject/feature/cart/views/widget/order_card2.dart';
 
 class CheckoutView extends StatelessWidget {
   const CheckoutView({super.key});
@@ -63,14 +64,14 @@ class CheckoutView extends StatelessWidget {
               ),
             ),
 
-            OrderCard(
+            OrderCard2(
               image: MyAppImage.ladyorder,
               ordername: AppStrings.product1name,
               orderrate: AppStrings.product1rate,
               orderprice: AppStrings.finalprice1,
               orderoldprice: AppStrings.oldprice1,
             ),
-            OrderCard(
+            OrderCard2(
               image: MyAppImage.manorder,
               ordername: AppStrings.product2name,
               orderrate: AppStrings.product2rate,

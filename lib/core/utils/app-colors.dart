@@ -13,4 +13,6 @@ abstract class MyAppColors {
   static const Color pink = Color(0xffFFCCD5);
   static const Color yellow = Color(0xffF7B305);
   static const Color pricegray = Color(0xffA7A7A7);
+  static const Color shadow = Color(0xff000040);
+  static const Color datecolor = Color(0xff391713);
 }
